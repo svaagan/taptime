@@ -42,14 +42,13 @@ strong, b { color: var(--paper); font-weight: 700; }
 a { color: var(--accent); font-weight: 700; }
 .muted { color: var(--muted); }
 
-.soon {
-  border: 2px dashed var(--line);
-  border-radius: 18px;
-  padding: 16px 20px;
+.store-badge {
+  display: inline-block;
   margin: 24px 0 8px;
-  color: var(--muted);
-  font-weight: 700;
+  line-height: 0;
 }
+.store-badge img { height: 50px; width: auto; display: block; }
+.store-badge:hover { opacity: 0.85; }
 
 .tiles { display: flex; gap: 8px; margin: 24px 0 4px; }
 .tiles span {
